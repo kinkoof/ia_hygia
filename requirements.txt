@@ -40,8 +40,6 @@ fonttools==4.39.2
 fqdn==1.5.1
 fsspec==2023.12.2
 gast==0.4.0
-grpcio==1.64.0
-grpcio-status==1.62.2
 gym==0.26.2
 gym-notices==0.0.8
 h11==0.14.0
