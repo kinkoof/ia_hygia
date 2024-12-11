@@ -36,7 +36,6 @@ try:
 except FileNotFoundError:
     logging.error("Modelo ou vetorizer não encontrados. Certifique-se de que foram treinados e salvos anteriormente.")
 
-# Inicializando o Flask
 app = Flask(__name__)
 
 # Função para recomendar remédio
