@@ -37,8 +37,8 @@ app = Flask(__name__)
 
 @app.route('/recomendar', methods=['POST'])
 def recomendar_remedio():
-    modelo_salvo = 'modelo_random_forest2.pkl'
-    vectorizer_salvo = 'vectorizer2.pkl'
+    modelo_salvo = 'modelo_random_forest.pkl'
+    vectorizer_salvo = 'vectorizer.pkl'
 
     try:
         model = joblib.load(modelo_salvo)
