@@ -37,12 +37,12 @@ app = Flask(__name__)
 
 @app.route('/recomendar', methods=['POST'])
 def recomendar_remedio():
-    modelo_salvo2 = 'modelo_random_forest2.pkl'
-    vectorizer_salvo2 = 'vectorizer2.pkl'
+    modelo_salvo = 'modelo_random_forest2.pkl'
+    vectorizer_salvo = 'vectorizer2.pkl'
 
     try:
-        model2 = joblib.load(modelo_salvo2)
-        vectorizer2 = joblib.load(vectorizer_salvo2)
+        model = joblib.load(modelo_salvo)
+        vectorizer = joblib.load(vectorizer_salvo)
         logging.info("Modelo e vetorizer carregados com sucesso.")
     except FileNotFoundError:
         logging.error("Modelo ou vetorizer não encontrados. Certifique-se de que foram treinados e salvos anteriormente.")
@@ -65,7 +65,20 @@ def recomendar_remedio():
 
 
 @app.route('/chat', methods=['POST'])
+
 def recomendar_funcao():
+
+    modelo_salvo2 = 'modelo_random_forest2.pkl'
+    vectorizer_salvo2 = 'vectorizer2.pkl'
+
+    try:
+        model2 = joblib.load(modelo_salvo2)
+        vectorizer2 = joblib.load(vectorizer_salvo2)
+        logging.info("Modelo e vetorizer carregados com sucesso.")
+    except FileNotFoundError:
+        logging.error("Modelo ou vetorizer não encontrados. Certifique-se de que foram treinados e salvos anteriormente.")
+
+
     # Recebendo dados do cliente
     dados = request.get_json()
     mensagem = dados.get('mensagem')
@@ -75,10 +88,10 @@ def recomendar_funcao():
 
     # Pré-processamento
     mensagem_preproc = preprocessar_texto(mensagem)
-    mensagem_transf = vectorizer.transform([mensagem_preproc])
+    mensagem_transf = vectorizer2.transform([mensagem_preproc])
 
     # Fazendo a previsão
-    funcao = model.predict(mensagem_transf)[0]
+    funcao = model2.predict(mensagem_transf)[0]
     return jsonify({'funcao': funcao})
 
 
