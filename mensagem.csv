@@ -1,0 +1,134 @@
+ID,Mensagem do Usuário,Função
+1,"Qual médico devo procurar?",requestMessageToIa
+2,"Como posso ver meus pedidos?",viewOrders
+3,"Como faço para começar uma compra?",startBuyFlow
+4,"Preciso de assistência, por favor.",requestMessageToIa
+5,"Mostrar meu histórico de pedidos.",viewOrders
+6,"Quero comprar um novo medicamento.",startBuyFlow
+ID,Mensagem do Usuário,Função
+4,"Preciso de assistência, por favor.",requestMessageToIa
+5,"Mostrar meu histórico de pedidos.",viewOrders
+6,"Quero comprar um novo medicamento.",startBuyFlow
+7,"Como posso cancelar uma compra?",requestMessageToIa
+8,"Quero saber o prazo de entrega.",viewOrders
+9,"Quero devolver um produto.",startBuyFlow
+10,"Como entro em contato com o suporte?",requestMessageToIa
+11,"Verificar meu saldo de pontos.",viewOrders
+12,"Quero alterar o endereço de entrega.",startBuyFlow
+13,"Qual é o preço desse medicamento?",requestMessageToIa
+14,"Como funciona o programa de fidelidade?",viewOrders
+15,"Quero saber sobre descontos disponíveis.",startBuyFlow
+16,"Como faço para alterar meu plano de assinatura?",requestMessageToIa
+17,"Quero ver minhas avaliações de produtos.",viewOrders
+18,"Como posso adicionar um novo cartão de crédito?",startBuyFlow
+19,"Quero informações sobre a política de troca.",requestMessageToIa
+20,"Como posso verificar a disponibilidade de um produto?",viewOrders
+21,"Quero saber sobre a política de privacidade.",startBuyFlow
+22,"Como faço para alterar minha senha?",requestMessageToIa
+23,"Quero ver ofertas exclusivas para membros.",viewOrders
+24,"Como faço para excluir minha conta?",startBuyFlow
+25,"Quero informações sobre medicamentos controlados.",requestMessageToIa
+26,"Como posso agendar uma consulta online?",viewOrders
+27,"Quero saber mais sobre o programa de recompensas.",startBuyFlow
+28,"Como posso alterar meu endereço de cobrança?",requestMessageToIa
+29,"Quero saber sobre promoções de produtos para o inverno.",viewOrders
+30,"Como posso recuperar o histórico de compras?",startBuyFlow
+31,"Quero saber sobre o prazo de validade de um medicamento.",requestMessageToIa
+32,"Como faço para atualizar meus dados pessoais?",viewOrders
+33,"Quero saber se há algum desconto para compras em atacado.",startBuyFlow
+34,"Como posso rastrear meu pedido?",requestMessageToIa
+35,"Quero informações sobre a política de entrega internacional.",viewOrders
+36,"Quero saber sobre o serviço de assinaturas.",startBuyFlow
+37,"Como faço para excluir um pedido?",requestMessageToIa
+38,"Quero informações sobre medicamentos genéricos.",viewOrders
+39,"Como posso cancelar minha assinatura?",startBuyFlow
+40,"Quero saber sobre a disponibilidade de um medicamento específico.",requestMessageToIa
+41,"Como posso acessar minha conta pelo celular?",viewOrders
+42,"Quero saber sobre produtos para cuidados da pele.",startBuyFlow
+43,"Como faço para alterar a quantidade de um pedido?",requestMessageToIa
+44,"Quero saber mais sobre a política de troca de medicamentos.",viewOrders
+45,"Quero saber sobre promoções de saúde e bem-estar.",startBuyFlow
+46,"Como posso cancelar minha assinatura de newsletter?",requestMessageToIa
+47,"Quero informações sobre o programa de pontos.",viewOrders
+48,"Quero saber sobre suplementos alimentares.",startBuyFlow
+49,"Como faço para alterar meu método de pagamento?",requestMessageToIa
+50,"Quero informações sobre a política de reembolso.",viewOrders
+51,"Como posso alterar o horário de entrega do meu pedido?",startBuyFlow
+52,"Quero saber mais sobre o programa de saúde personalizado.",requestMessageToIa
+53,"Como posso verificar a quantidade de estoque disponível?",viewOrders
+54,"Quero saber sobre a eficácia de um medicamento.",startBuyFlow
+55,"Como posso cancelar a minha assinatura de produto?",requestMessageToIa
+56,"Quero saber sobre o benefício de usar uma farmácia parceira.",viewOrders
+57,"Quero informações sobre como usar cupons de desconto.",startBuyFlow
+58,"Como faço para alterar o endereço de entrega de um pedido?",requestMessageToIa
+59,"Quero saber sobre os efeitos colaterais de um medicamento.",viewOrders
+60,"Como posso gerenciar minhas receitas digitais?",startBuyFlow
+61,"Quero saber sobre as opções de entrega rápida.",requestMessageToIa
+62,"Como posso ver meus benefícios de fidelidade acumulados?",viewOrders
+63,"Quero saber sobre a compatibilidade de um medicamento com outro.",startBuyFlow
+64,"Como faço para adicionar um novo item à lista de desejos?",requestMessageToIa
+65,"Quero saber sobre a política de entrega expressa.",viewOrders
+66,"Quero informações sobre a composição de um medicamento.",startBuyFlow
+67,"Como posso saber se um medicamento está em falta?",requestMessageToIa
+68,"Quero saber mais sobre produtos naturais e suas vantagens.",viewOrders
+69,"Como posso alterar a frequência de entrega de uma assinatura?",startBuyFlow
+70,"Quero informações sobre a reciclagem de embalagens de medicamentos.",requestMessageToIa
+71,"Como posso saber sobre as reações adversas de um medicamento?",viewOrders
+72,"Quero saber sobre o serviço de entrega internacional.",startBuyFlow
+73,"Como faço para ativar o serviço de consulta médica online?",requestMessageToIa
+74,"Quero saber mais sobre medicamentos para emagrecimento.",viewOrders
+75,"Como posso verificar o status de um pedido cancelado?",startBuyFlow
+76,"Quero saber sobre medicamentos para tratamento de diabetes.",requestMessageToIa
+77,"Como faço para alterar o intervalo entre as entregas de uma assinatura?",viewOrders
+78,"Quero saber sobre medicamentos para tratamento de artrite.",startBuyFlow
+79,"Como posso cancelar a minha assinatura de suplemento?",requestMessageToIa
+80,"Quero informações sobre medicamentos para controle da pressão arterial.",viewOrders
+81,"Como posso alterar o endereço de cobrança de uma assinatura?",startBuyFlow
+82,"Quero saber sobre os efeitos colaterais de um suplemento.",requestMessageToIa
+83,"Como posso verificar a validade de um medicamento fora do prazo?",viewOrders
+84,"Quero saber sobre medicamentos para tratamento de ansiedade.",startBuyFlow
+85,"Como faço para adicionar um novo método de pagamento?",requestMessageToIa
+86,"Quero saber sobre medicamentos para tratamento de dor crônica.",viewOrders
+87,"Como posso ver minha receita digital?",startBuyFlow
+88,"Quero informações sobre medicamentos para controle de colesterol.",requestMessageToIa
+89,"Como posso alterar o endereço de entrega de uma assinatura?",viewOrders
+90,"Quero saber sobre a disponibilidade de vacinas.",startBuyFlow
+91,"Como posso cancelar o envio automático de recargas?",requestMessageToIa
+92,"Quero informações sobre medicamentos para tratamento de asma.",viewOrders
+93,"Como faço para atualizar meus dados de contato?",startBuyFlow
+94,"Quero saber sobre medicamentos para controle do colesterol.",requestMessageToIa
+95,"Como posso ver meu histórico de consultas?",viewOrders
+96,"Quero saber sobre a disponibilidade de teste de glicemia.",startBuyFlow
+97,"Como posso cancelar uma inscrição de newsletter?",requestMessageToIa
+98,"Quero saber sobre medicamentos para tratamento de hipertensão.",viewOrders
+99,"Como posso alterar o método de pagamento de uma assinatura?",startBuyFlow
+100,"Quero informações sobre a utilização de medicamentos para controle de peso.",requestMessageToIa
+101,"Como faço para excluir um cartão de crédito da minha conta?",viewOrders
+102,"Quero saber sobre a disponibilidade de remédios controlados.",startBuyFlow
+103,"Como posso cancelar uma receita digital?",requestMessageToIa
+104,"Quero saber sobre medicamentos para tratamento de osteoporose.",viewOrders
+105,"Como posso verificar a quantidade de medicamentos em estoque?",startBuyFlow
+106,"Quero informações sobre medicamentos para tratamento de dor muscular.",requestMessageToIa
+107,"Como faço para alterar o endereço de entrega de uma compra?",viewOrders
+108,"Quero saber sobre a disponibilidade de insulina.",startBuyFlow
+109,"Como posso saber sobre medicamentos para tratamento de colesterol?",requestMessageToIa
+110,"Quero saber sobre medicamentos para tratamento de enxaqueca.",viewOrders
+111,"Como posso cancelar minha conta no aplicativo?",startBuyFlow
+112,"Quero informações sobre medicamentos para tratamento de refluxo.",requestMessageToIa
+113,"Como posso verificar o status de uma receita digital?",viewOrders
+114,"Quero saber sobre medicamentos para tratamento de osteoartrite.",startBuyFlow
+115,"Como posso alterar a data de entrega de um pedido?",requestMessageToIa
+116,"Quero saber sobre medicamentos para tratamento de depressão.",viewOrders
+117,"Como faço para excluir meu histórico de pedidos?",startBuyFlow
+118,"Quero saber sobre medicamentos para tratamento de infecção urinária.",requestMessageToIa
+119,"Como posso cancelar uma assinatura de medicamento?",viewOrders
+120,"Quero saber sobre medicamentos para tratamento de candidíase.",startBuyFlow
+121,"Como posso alterar o endereço de entrega de um pedido?",requestMessageToIa
+122,"Quero saber sobre medicamentos para tratamento de sinusite.",viewOrders
+123,"Como faço para excluir minha conta?",startBuyFlow
+124,"Quero informações sobre medicamentos para tratamento de hipertireoidismo.",requestMessageToIa
+125,"Como posso saber sobre medicamentos para tratamento de dermatite.",viewOrders
+126,"Quero saber sobre medicamentos para tratamento de problemas renais.",startBuyFlow
+127,"Como faço para alterar a frequência de entrega de uma assinatura?",requestMessageToIa
+128,"Quero saber sobre medicamentos para tratamento de diabetes tipo 2.",viewOrders
+129,"Como posso cancelar um pedido com erro?",startBuy
