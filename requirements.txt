@@ -5,3 +5,4 @@ scipy
 nltk
 joblib
 Flask
+flask
