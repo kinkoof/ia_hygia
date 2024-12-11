@@ -11,10 +11,8 @@ import logging
 nltk.download('rslp')
 nltk.download('stopwords')
 
-# Configuração de logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Função de pré-processamento
 def preprocessar_texto(texto):
     texto = re.sub(r'[^\w\s]', '', texto)
     texto = re.sub(r'\d+', '', texto)
@@ -25,7 +23,6 @@ def preprocessar_texto(texto):
     palavras = [stemmer.stem(p) for p in palavras if p not in stop_words]
     return ' '.join(palavras)
 
-# Carregando o modelo e o vetorizer salvos
 modelo_salvo = 'modelo_random_forest.pkl'
 vectorizer_salvo = 'vectorizer.pkl'
 
@@ -38,7 +35,6 @@ except FileNotFoundError:
 
 app = Flask(__name__)
 
-# Função para recomendar remédio
 @app.route('/recomendar', methods=['POST'])
 def recomendar_remedio():
     # Recebendo dados do cliente
